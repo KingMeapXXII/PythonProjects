@@ -1,0 +1,27 @@
+word = input ("Enter a word,  ")
+word = word.lower()
+first_letter = word[0]
+if first_letter == 'a':
+  word = word+'way'
+  print(word)
+elif first_letter == 'e':
+  word = word+'way'
+  print(word)
+elif first_letter == 'i':
+  word = word+'way'
+  print(word)
+elif first_letter == 'o':
+  word = word+'way'
+  print(word)
+elif first_letter == 'u':
+  word = word+'way'
+  print(word)
+else:
+  length = len(word)
+  length = length - 1
+  x = 1
+  for length in range:
+    word = word[x]
+    x + 1 
+  word = word+first_letter+'ay'
+  print(word)
