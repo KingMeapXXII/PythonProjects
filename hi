@@ -1,0 +1,10 @@
+first = input("Enter your first name")
+length = len(first)
+if length < 5:
+	surname = input("Enter your surname")
+	surname = surname.upper()
+	first = first.upper()
+	print(first + surname)
+else:
+	first = first.lower()
+	print(first)
