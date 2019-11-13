@@ -1,0 +1,25 @@
+date_list = [2018, 2019, 2019, 2020, 2019, 2022, 2025, 1932, 2020, 2017, 2018, 2012]
+
+x = 0
+
+for item in date_list:
+  if int(item) < 2018:
+    print("In the bin")
+    print(item)
+    date_list.remove(item)
+print("----------")
+    
+
+for item in date_list:
+  if int(item) % 2 == 0:
+    print("I get the food")
+    print(item)
+print("----------")
+
+    
+  
+for item in date_list:
+  if int(item) % 2 == 1:
+    print("Roomate gets the food")
+    print(item)
+print("----------")
