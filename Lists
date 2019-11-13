@@ -1,0 +1,15 @@
+smart = 1 #Change smart to 0 or 1
+if smart == 0: #using variables is slower
+  item1 = "Steak"
+  item2 = "Meat"
+  item3 = "Beef"
+
+  print(item1)
+  print(item2)
+  print(item3)
+
+elif smart == 1: #Using lists to make this faster
+  my_list = ["Steak", "Meat", "Beef"]
+
+  for item in my_list:
+    print(item)
